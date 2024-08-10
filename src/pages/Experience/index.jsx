@@ -1,5 +1,5 @@
 import Card from "./Card";
-import Data from "./data";
+import Data from "./Data";
 
 const Experience = () => {
     return (
