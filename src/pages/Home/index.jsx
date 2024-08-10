@@ -3,6 +3,7 @@ import Victory from "../../assets/victory.svg"
 import "./index.css"
 import { IoLogoInstagram, IoLogoFacebook, IoLogoGithub, IoLogoDiscord } from "react-icons/io5";
 import Shapes from './Shapes';
+import { TypeAnimation } from 'react-type-animation';
 const Home = () => {
     return (
         <section id='home' className='h-screen w-full flex items-center justify-center'>
@@ -12,7 +13,24 @@ const Home = () => {
                         <img src={Avatar} alt="" className='h-full w-full object-cover' />
                     </div>
                     <h2 className='font-medium text-3xl text-[var(--title-color)]'>Tran Le Anh Tuan</h2>
-                    <p className='text-xl flex gap-2 justify-center items-center  text-[var(--title-color)]'><span className='flex items-center'>Hi there <img src={Victory} alt="" className='w-8 h-8' />,</span><span>{`I'm Front-end developer`}</span></p>
+                    <p className='text-xl flex gap-2 justify-center items-center  text-[var(--title-color)]'>
+                        <span className='flex items-center'>Hi there <img src={Victory} alt="" className='w-8 h-8' />,</span>
+                        <span className='font-semibold text-purple-600'>
+                            <TypeAnimation
+                                sequence={[
+                                    "I'm Frontend Developer",
+                                    1000,
+                                    "I'm Backend Developer",
+                                    1000,
+                                    "I'm Fullstack Developer",
+                                    1000,
+                                ]}
+                                wrapper="span"
+                                repeat={Infinity}
+                                cursor={true}
+                            />
+                        </span>
+                    </p>
                 </div>
                 <div className='flex justify-center gap-7 text-[var(--title-color)]'>
                     <a href="https://www.github.com/" className="text-3xl"><IoLogoGithub /></a>
