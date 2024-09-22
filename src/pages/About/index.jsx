@@ -11,7 +11,7 @@ import vite from '../../assets/vite.svg'
 
 const About = () => {
     return (
-        <section id="about" className='h-fit md:h-screen w-full md:container mx-auto pt-12 z-10'>
+        <section id="about" className='h-fit md:h-screen w-full md:container mx-auto pt-12 z-10 sm:px-0 px-10'>
             <h2 className="text-4xl ml-[0.875rem] font-bold mb-[3.75rem] text-[var(--title-color)]">About me</h2>
             <div className="grid md:grid-cols-[3fr,9fr] grid-cols-1 gap-7">
                 <img src={Avatar} alt="" className='h-32 w-32 object-cover rounded-full' />

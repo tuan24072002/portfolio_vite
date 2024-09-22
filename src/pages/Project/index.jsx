@@ -3,7 +3,7 @@ import MenuProject from "./MenuProject"
 
 const Project = () => {
     return (
-        <section id="project" className='lg:h-screen h-full w-full md:container mx-auto pt-14 z-10'>
+        <section id="project" className='h-full w-full md:container mx-auto pt-14 z-10'>
             <h2 className="text-4xl ml-[0.875rem] font-bold mb-[3.75rem] text-[var(--title-color)]">Latest project:</h2>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-16 gap-4 w-fit mx-auto">
                 {

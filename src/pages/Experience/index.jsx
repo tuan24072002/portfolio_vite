@@ -3,7 +3,7 @@ import Data from "./Data";
 
 const Experience = () => {
     return (
-        <section id="experience" className='h-screen w-full md:container mx-auto pt-14 z-10'>
+        <section id="experience" className='sm:h-screen h-full w-full md:container mx-auto pt-14 z-10 sm:px-0 px-10'>
             <h2 className="text-4xl ml-[0.875rem] font-bold mb-[3.75rem] text-[var(--title-color)]">Experience</h2>
             <div className="grid md:grid-cols-2 grid-cols-1 gap-7">
                 <div className="p-[1.875rem] rounded-lg relative shadow-lg bg-[var(--container-color)]">
