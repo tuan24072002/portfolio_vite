@@ -12,7 +12,7 @@ const MenuProject = [
         id: 0,
         image: meeting_app,
         title: "Meeting App",
-        link: "https://mernecommerce-w9qq.onrender.com/",
+        link: "https://meeting-app-black-beta.vercel.app/",
         technology: "NextJS / Clerk / Tailwind / Shadcn / Stream",
     },
     {
